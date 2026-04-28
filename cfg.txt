@@ -1,0 +1,8 @@
+git config --global user.email
+git config --global user.name
+
+-- Criar o projeto API
+dotnet new webapi -o GStore.Api --use-controllers
+
+-- Instalação das bibliotecas/pacotes
+- Extensão Nuget Gallery
