@@ -1,8 +1,9 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace GStore.Api.Models;
-[Table("categoria")]
+namespace GStore.API.Models;
+
+[Table("categorias")]
 public class Categoria
 {
     [Key]
@@ -17,4 +18,5 @@ public class Categoria
 
     [StringLength(26)]
     public string Cor { get; set; } = "rgba(0,0,0,1)";
+    
 }

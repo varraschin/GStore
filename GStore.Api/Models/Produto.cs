@@ -1,6 +1,5 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using GStore.Api.Models;
 
 namespace GStore.API.Models;
 
